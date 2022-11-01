@@ -11,11 +11,11 @@ class AlexNet(nn.Module):
     Attributes
     ----------
     ConvolutedBlock
-        Long short term memory (LSTM) block that process user sequences with an input shape
-        (batch_size, num_sequences, logs_features) which returns a 3-dimensional tensor.
+        Block conformed by 5 Conv2d layers.
+        RElU is used for activation layers, and we perform Batch normalization after every convolution layer.
     DenseBlock
-        Dense block of linear layers that process users profiles with an input shape of (batch_size, users_features)
-        and returns a 2-dimensional tensor.
+        Block composed by three linear layers.
+        RElU is used for activation layers and dropout=0.5 is applied for every layer.
 
     Notes
     -----
