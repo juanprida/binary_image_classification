@@ -1,4 +1,4 @@
-# Image classification
+# Binary Image classification
 Tiny little project for classification of dog vs. cats dataset.
 
 ![alt text](https://github.com/juanprida/image-classification/blob/main/woof_meow.jpg?raw=true)
