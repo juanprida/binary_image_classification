@@ -7,7 +7,7 @@ Tiny little project for classification of dog vs. cats dataset.
 Scratch implementation of AlexNet model using Pytorch.
 
 ## Project structure:
-Essentially, there are different python files:
+Essentially, there are three different python files:
 - `cat_dog_dataset.py` where we define a Pytorch Dataset class.
 - `alexnet.py` where we define the network architecture.
 - `engine.py` where we define the engine class responsible for the actual training of the model.
