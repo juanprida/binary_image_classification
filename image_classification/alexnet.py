@@ -22,7 +22,7 @@ class AlexNet(nn.Module):
     - The architecture follows the exact same structure than AlexNet (see: https://en.wikipedia.org/wiki/AlexNet).
     - Some output channels and output features have been reduced in size due to performance improvements.
     - We don't apply a sigmoid activation in the last layer. This is because we are using
-    torch.nn.functional.binary_cross_entropy_with_logits as the current loss which proves to be more numerically stable.
+    torch.nn.functional.binary_cross_entropy_with_logits as the current loss which proves to be more stable than applying a sigmoid layer + binary_cross_entropy.
 
     Parameters
     ----------
